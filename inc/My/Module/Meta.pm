@@ -19,8 +19,10 @@ sub new {
 
 sub build_requires {
     return +{
+	'File::Temp'			=> 0,
 	'Test2::V0'			=> 0,
 	'Test2::Plugin::BailOnFail'	=> 0,
+	'Test2::Tools::LoadModule'	=> 0,
     };
 }
 
@@ -69,6 +71,9 @@ sub requires {
 ##  }
     return +{
 	'Carp'		=> 0,
+	'Exporter'	=> 0,
+	'File::Spec'	=> 0,
+	constant	=> 0,
 	strict		=> 0,
 	warnings	=> 0,
 	@extra,

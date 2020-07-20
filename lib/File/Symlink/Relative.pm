@@ -5,6 +5,10 @@ use 5.008001;
 use strict;
 use warnings;
 
+# OK, the following is probably paranoia. But if Perl 7 decides to
+# change this particular default I'm ready. Unless they eliminate $].
+no if $] ge '5.020', feature => qw{ signatures };
+
 use Carp;
 use Exporter qw{ import };
 use File::Spec;

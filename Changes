@@ -1,4 +1,4 @@
-0.002_01	2021-01-05	T. R. Wyant
+0.003		2021-01-12	T. R. Wyant
     Add Travis CI testing.
 
     Use GitHub as bug tracker. R.I.P. rt.cpan.org.

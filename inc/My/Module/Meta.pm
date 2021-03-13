@@ -55,7 +55,6 @@ sub distribution {
     return $self->{distribution};
 }
 
-
 sub license {
     return 'perl';
 }
@@ -69,7 +68,8 @@ sub meta_merge {
 	dynamic_config	=> 1,
 	resources	=> {
 	    bugtracker	=> {
-		web	=> 'https://github.com/trwyant/perl-File-Symlink-Relative/issues',
+		web	=> 'https://rt.cpan.org/Public/Dist/Display.html?Name=File-Symlink-Relative',
+		# web	=> 'https://github.com/trwyant/perl-File-Symlink-Relative/issues',
 		mailto  => 'wyant@cpan.org',
 	    },
 	    license	=> 'http://dev.perl.org/licenses/',
@@ -82,7 +82,6 @@ sub meta_merge {
 	@extra,
     };
 }
-
 
 sub module_name {
     return 'File::Symlink::Relative';
@@ -128,7 +127,6 @@ sub requires {
 sub requires_perl {
     return 5.008001;
 }
-
 
 sub script_files {
     return [
@@ -289,7 +287,6 @@ distribution's version is to be derived.
 
 This class has no public attributes.
 
-
 =head1 ENVIRONMENT
 
 =head2 MAKING_MODULE_DISTRIBUTION
@@ -298,10 +295,10 @@ This environment variable should be set to a true value if you are
 making a distribution. This ensures that no configuration-specific
 information makes it into F<META.yml>.
 
-
 =head1 SUPPORT
 
 Support is by the author. Please file bug reports at
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=File-Symlink-Relative>,
 L<https://github.com/trwyant/perl-File-Symlink-Relative/issues>, or in
 electronic mail to the author.
 

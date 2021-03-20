@@ -13,7 +13,7 @@ use Carp;
 use Exporter qw{ import };
 use File::Spec;
 
-our $VERSION = '0.003_01';
+our $VERSION = '0.004';
 
 our @EXPORT_OK = qw{
     symlink_r

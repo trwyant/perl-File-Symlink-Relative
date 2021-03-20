@@ -1,4 +1,4 @@
-0.003_01	2021-03-12	T. R. Wyant
+0.004		2021-03-20	T. R. Wyant
     Add rt.cpan.org back to bug reporting methods. Long live RT!
 
     Get prerequisites up to snuff and add xt/author/prereq.t to ensure

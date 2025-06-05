@@ -1,5 +1,6 @@
 Build.PL
 Changes
+CONTRIBUTING
 inc/My/Module/Build.pm
 inc/My/Module/Meta.pm
 lib/File/Symlink/Relative.pm
@@ -10,6 +11,7 @@ MANIFEST
 META.json
 META.yml
 README
+SECURITY
 t/basic.t
 t/symlink_r.t
 xt/author/changes.t
